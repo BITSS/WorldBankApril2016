@@ -48,8 +48,8 @@
 % - Keep it simple, no one is interested in your street address.
 
 \date[BITSS2014] % (optional, should be abbreviation of conference name)
-{MCA Zambia, March 2016\\
-Slides available online at \url{https://osf.io/m8ey6/}}
+{World Bank, April 2016\\
+Slides available online at \url{http://www.github.com/BITSS/WorldBankApril2016}}
 % - Either use conference name or its abbreviation.
 % - Not really informative to the audience, more for people (including
 %   yourself) who are reading the slides online
@@ -414,6 +414,17 @@ AKA Registered Reports, moves peer review before data gathering, results, and an
 \href{https://osf.io/8mpji/wiki/home/}{20 Journals, 5 more with Special Issues \beamergotobutton{Link}}
 \end{frame}
 
+{ % all template changes are local to this group.
+    \setbeamertemplate{navigation symbols}{}
+    \begin{frame}[plain, label=AEAreg]
+         \begin{tikzpicture}[remember picture,overlay]
+            \node[at=(current page.center)] {
+                \includegraphics[height=\paperheight]{../Images/results_blind_review.png}
+            };
+        \end{tikzpicture}
+     \end{frame}
+}
+
 \begin{frame}{Meta-Analysis}
 Synthesize results systematically
 
@@ -569,6 +580,36 @@ J-PAL Hypothesis Registry (11), see \url{http://www.povertyactionlab.org/Hypothe
 Wide range of when exactly to write and how detailed to make the plan. At the extreme level of detail you would have your entire code already written before you got any data.
 \end{frame}
 
+{ % all template changes are local to this group.
+    \setbeamertemplate{navigation symbols}{}
+    \begin{frame}[plain]
+         \begin{tikzpicture}[remember picture,overlay]
+            \node[at=(current page.center)] {
+                \includegraphics[width=\paperwidth]{../Images/GoBifo1.PNG}
+            };
+        \end{tikzpicture}
+     \end{frame}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{PAP--Observational Studies}
+\begin{itemize}[<.->]
+\item Debated in public health/epidemiology.
+\item Difficult, but not impossible, to verifiably pre-specify.
+\item Example: Government data releases
+\item Example: Minimum Wage (Neumark 2001)
+\end{itemize}
+\end{frame}
+
+{ % all template changes are local to this group.
+    \setbeamertemplate{navigation symbols}{}
+    \begin{frame}[plain]
+         \begin{tikzpicture}[remember picture,overlay]
+            \node[at=(current page.center)] {
+                \includegraphics[width=\paperwidth]{../Images/Neumark.PNG}
+            };
+        \end{tikzpicture}
+     \end{frame}
+}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Replication}
 \begin{frame}{Replication}
@@ -674,6 +715,28 @@ Possible in R and Stata.
 \item Produce entire paper with one or two clicks.
 \end{itemize} 
 \end{frame}
+
+
+ { % all template changes are local to this group.
+    \setbeamertemplate{navigation symbols}{}
+    \begin{frame}[plain, label=AEAreg]
+         \begin{tikzpicture}[remember picture,overlay]
+            \node[at=(current page.center)] {
+                \includegraphics[height=\paperheight]{../Images/jupyter.png}
+            };
+        \end{tikzpicture}
+     \end{frame}
+}
+ { % all template changes are local to this group.
+    \setbeamertemplate{navigation symbols}{}
+    \begin{frame}[plain, label=AEAreg]
+         \begin{tikzpicture}[remember picture,overlay]
+            \node[at=(current page.center)] {
+                \includegraphics[width=\paperwidth]{../Images/RStudio-Logo-Blue-Gradient.png}
+            };
+        \end{tikzpicture}
+     \end{frame}
+}
 
 \subsection*{Data Sharing}
 \begin{frame}{Data Sharing}
