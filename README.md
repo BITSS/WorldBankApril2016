@@ -1,7 +1,7 @@
 # World Bank Reproducibility Training
 Materials for the April 2016 Reproducibility Training at the World Bank
 
-## Installation Instructions
+## Installation Instructions (See bottom for VM & internal Bank machine instructions)
 The workshop will introduce you to two major sets of tools that can help you make your workflow more reproducible: version control and dynamic documents. It will very helpful if you could install the following software programs before coming to the workshop
 
 ### 1. Version Control with Git and the Github Desktop app
@@ -34,3 +34,12 @@ You may also get some links about installing Pandoc and wkhtmltopdf. Please inst
 ### 3. A good text editor
 
 Writing good code is facilitated by a good text editor. You can get away without one because you almost certainly already have a program on your computer that can save simple ASCII text files (Notepad for Windows, or TextEdit for Mac--but change the default from Rich Text to Plain Text) but modern text editors do syntax highlighting, auto-complete, and a bunch of other cool stuff for you. I suggest [Atom](http://atom.io).
+
+## Virtual Machine & internal Bank machine environment setup
+### VM
+Our strict preference is for the participants to install the software on personal or WBG machines for the hands-on exercises. However, in case you have some issues with installation, on-site registered participants are granted an access to VM via their WBG laptop. We will provide the name of the terminal server on the day of the workshop. 
+### Git and GitHub Desktop
+We have seen some errors using Git/GitHub Desktop from the Bank machines. If you run into SSL certificate error, run the following command:
+```
+git config --global http.sslVerify false
+```
