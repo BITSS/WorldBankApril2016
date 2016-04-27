@@ -6,9 +6,9 @@ BITSS World Bank Workshop, April 2016
 
 ###To get started:
 
-1. Download and install the [GitHub Desktop app](http://desktop.github.com).
 2. Download and install a good text editor like [Atom](http://atom.io).
-3. Setup the app by telling it your GitHub user name (which you need to create if you haven't already).
+1. Download and install the [GitHub Desktop app](http://desktop.github.com).
+3. Setup the Github Desktop app by telling it your GitHub user name (which you need to create if you haven't already).
 
 Git is a version control program that helps you very accurately keep track of changes to text files, with or without collaborators. Note that .txt, .do, .R, .md, and many other files are actually text files. Others like .doc, .docx, .xls, .xlsx, .pdf, .dta, are not text files. So there's huge value in using Git and Github for your Stata script (.do) files, but there's little value in using it with your data (.dta) files.
 
