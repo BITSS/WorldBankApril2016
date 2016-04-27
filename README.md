@@ -2,7 +2,7 @@
 Materials for the April 2016 Reproducibility Training at the World Bank
 
 ## Installation Instructions (See bottom for VM & internal Bank machine instructions)
-The workshop will introduce you to two major sets of tools that can help you make your workflow more reproducible: version control and dynamic documents. It will very helpful if you could install the following software programs before coming to the workshop
+The workshop will introduce you to two major sets of tools that can help you make your workflow more reproducible: version control and dynamic documents. It will very helpful if you could install the following software programs before coming to the workshop. **Our strict preference is for the participants to install the software on personal or WBG machines** for the hands-on exercises. However, in case you have some issues with installation, we prepared VM for some of the on-site registered participants. 
 
 ### 1. Version Control with Git and the Github Desktop app
 
@@ -37,7 +37,7 @@ Writing good code is facilitated by a good text editor. You can get away without
 
 ## Virtual Machine & internal Bank machine environment setup
 ### VM
-Our strict preference is for the participants to install the software on personal or WBG machines for the hands-on exercises. However, in case you have some issues with installation, on-site registered participants are granted an access to VM via their WBG laptop. We will provide the name of the terminal server on the day of the workshop. 
+**_Our strict preference is for the participants to install the software on personal or WBG machines_** for the hands-on exercises. However, in case you have some issues with installation, on-site registered participants are granted an access to VM via their WBG laptop. We will provide the name of the terminal server on the day of the workshop. Please note that the VM will not be able to support all the participants.
 ### Git and GitHub Desktop
 We have seen some errors using Git/GitHub Desktop from the Bank machines. If you run into SSL certificate error, run the following command:
 ```
