@@ -70,8 +70,6 @@ We'll probably only have time for #1.
 
 ###Additional Git Topics:
 
-EXPERIMENTAL CHANGES
-
 ####Pull Requests:
 This is how you suggest changes to repositories to which you aren't a full fledged collaborator. Try this with a partner if you have time. Clone a repo you don't own, make a change, submit a pull request, and ask the owner to merge the pull request. Switch roles.
 
@@ -79,5 +77,3 @@ This is how you suggest changes to repositories to which you aren't a full fledg
 Almost all experienced users will use Git via the command line. (Terminal on a Mac, the Git Shell that came with the Desktop app, Windows PowerShell, there are a lot of options. They're all where you type commands for your computer to execute.) You can read why [here](http://programmers.stackexchange.com/questions/173297/why-learn-git-when-there-are-gui-apps-for-github). Basically, it's more powerful.
 
 There are a million and one online tutorials for Git in the command line. [Software Carpentry's](http://swcarpentry.github.io/git-novice/) is good, as is [Atlassian's](https://www.atlassian.com/git/tutorials/). The basic stuff is all nicely summarized [here](http://rogerdudler.github.io/git-guide/) in a single page.
-
-EXPERIMENTAL CHANGES
