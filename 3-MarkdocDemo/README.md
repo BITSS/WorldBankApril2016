@@ -47,5 +47,5 @@ You need to write the paper portion of your dynamic document in Markdown, LaTeX,
 	4. Have Stata code and output where you want *neither* in the final paper.
 	5. Write a paragraph that's just the paper.
 	6. Generate a figure in Stata and include it in the paper.
-	7. OPTIONAL: Run a regression, format the output with outreg2 or estout, and include it in the paper. (I'm not even sure this is possible. It's easy with R Markdown and Knitr. Check out the tbl command in weaver.)
+	7. OPTIONAL: Run a regression, format the output with outreg2 or estout, and include it in the paper. (This is easiest with LaTeX or HTML--include/input the .tex file created by estout. Also check out the tbl command in weaver.)
 	8. OPTIONAL: Include a citation. (See instructions [here](http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html).)
