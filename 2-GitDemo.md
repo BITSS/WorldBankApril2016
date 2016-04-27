@@ -1,13 +1,13 @@
 Outline of GitHub Desktop Demo
 ==============================
-BITSS-IPA Workshop, March 2016
+BITSS World Bank Workshop, April 2016
 ------------------------------
 ![Git xkcd comic](https://imgs.xkcd.com/comics/git.png)
 
 ###To get started:
 
-1. Download and install the GitHub Desktop app.
-2. Download and install MarkdownPad.
+1. Download and install the [GitHub Desktop app](http://desktop.github.com).
+2. Download and install a good text editor like [Atom](http://atom.io).
 3. Setup the app by telling it your GitHub user name (which you need to create if you haven't already).
 
 Git is a version control program that helps you very accurately keep track of changes to text files, with or without collaborators. Note that .txt, .do, .R, .md, and many other files are actually text files. Others like .doc, .docx, .xls, .xlsx, .pdf, .dta, are not text files. So there's huge value in using Git and Github for your Stata script (.do) files, but there's little value in using it with your data (.dta) files.
@@ -38,7 +38,7 @@ Go back and forth between local and remote (online) changes, being sure to sync 
 
 <!--This is the branch where I do crazy stuff like adding an HTML comment.-->
 
-<!--Did you notice how above the numbering for the bulleted items is weird in the markdown doc, but when rendered, it looks nice? Thanks, Mardown!--> 
+<!--Did you notice how above the numbering for the bulleted items is weird in the markdown doc, but when rendered, it looks nice? Thanks, Mardown!-->
 
 ###Branching:
 Git uses branches to let you experiment on new ideas or bug fixes.
@@ -48,7 +48,7 @@ Git uses branches to let you experiment on new ideas or bug fixes.
 3. Oh wait, no. Emergency, you have to go back to the main (master) branch.
 	1. Change a different file or a different part of the same file. Save and commit to master.
 	2. Merge the experimental and master branches.
-4. Between the experimental branch and the main branch, make some conflicting changes (that is, changes to the same lines of the same file). Then try and merge. *What happens?* 
+4. Between the experimental branch and the main branch, make some conflicting changes (that is, changes to the same lines of the same file). Then try and merge. *What happens?*
 
 ###Collaborating:
 Thus far we've been working solo. Now we'll collaborate. GitHub is built for this. Thousands of people contribute code to large open source coding projects without ever meeting in person. It's also great for just a few people to collaborate on simpler coding projects.
@@ -80,4 +80,4 @@ Almost all experienced users will use Git via the command line. (Terminal on a M
 
 There are a million and one online tutorials for Git in the command line. [Software Carpentry's](http://swcarpentry.github.io/git-novice/) is good, as is [Atlassian's](https://www.atlassian.com/git/tutorials/). The basic stuff is all nicely summarized [here](http://rogerdudler.github.io/git-guide/) in a single page.
 
-EXPERIMENTAL CHANGES 
+EXPERIMENTAL CHANGES
