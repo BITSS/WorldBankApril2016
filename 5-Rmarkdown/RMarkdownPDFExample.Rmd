@@ -5,18 +5,18 @@ date: "Thursday February 11, 2016"
 output: pdf_document
 ---
 
-REMEMBER TO SET THE WORKING DIRECTORY AND INSTALL/LOAD PACKAGES!
+One Click! Knit PDF and you're done.
 ===============================================================
 You only have to install a package once, but you have to load the library every time you want to use it. You'll see that a bunch of ugly commands and output gets displayed. You probably wouldn't really want that in your actual paper.
 
-```{r, echo=TRUE}
+```{r, echo=FALSE, warning=FALSE, results='hide'}
 #install.packages("foreign")
 library(foreign)
 #install.packages("stargazer")
 library(stargazer)
 #install.packages("sandwich")
 library(sandwich)
-setwd ("C:/Users/garret/Box Sync/BITSS/1_Events/3_Workshops-Seminars/UCSD/UCSDWorkshop/Rmarkdown")
+
 ```
 
 Which is why you can turn off code (with echo=FALSE) and/or results (with results='hide'). You're not going to see anything from this chunk here: 
@@ -106,8 +106,4 @@ Everything All in One Place?
 =====================
 You can do [citations](http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html). Plots, graphs, and citations, what else do you need for a research paper?
 
-Complicated, time consuming for very long articles.
-
-Maybe try Sweave (direct combo of LaTeX and R).
-
-Send your output to .tex files, include those in your master paper file.
+You could also maybe try Sweave (direct combo of LaTeX and R). Or, just like in Stata, you could send your output to .tex files, and include those in your master paper file.

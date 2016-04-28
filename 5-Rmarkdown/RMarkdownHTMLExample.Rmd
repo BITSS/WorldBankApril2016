@@ -5,9 +5,14 @@ date: "Thursday February 11, 2016"
 output: html_document
 ---
 
-REMEMBER TO SET THE WORKING DIRECTORY AND INSTALL/LOAD PACKAGES!
+ONE CLICK! Knit HTML and you're done.
 ===============================================================
-You only have to install a package once, but you have to load the library every time you want to use it. You'll see that a bunch of ugly commands and output gets displayed. You probably wouldn't really want that in your actual paper.
+
+1. Remember how we had to set the directory in Stata? R Projects to the rescue! And it's got version control built right in. Look under Tools>Version Control. (OMG someone build this for Stata plz.)
+
+(If you're doing filepaths by yourself in R, and you're on a Windows machine and you copy-pasted the filepath, change slash directions. Ugh.)
+
+2. Install/Load packages. You only have to install a package once, but you have to load the library every time you want to use it. You'll see that a bunch of ugly commands and output gets displayed. You probably wouldn't really want that in your actual paper.
 
 ```{r, echo=TRUE}
 #install.packages("foreign")
@@ -16,7 +21,7 @@ library(foreign)
 library(stargazer)
 #install.packages("sandwich")
 library(sandwich)
-setwd ("C:/Users/garret/Box Sync/BITSS/1_Events/3_Workshops-Seminars/UCSD/UCSDWorkshop/Rmarkdown")
+setwd ("C:/Users/garret/Box Sync/CEGA-Programs-BITSS/1_Events/3_Workshops-Seminars/World Bank/WorldBankApril2016/5-Rmarkdown")
 ```
 
 Which is why you can turn off code (with echo=FALSE) and/or results (with results='hide'). You're not going to see anything from this chunk here: 
@@ -104,8 +109,8 @@ Everything All in One Place?
 =====================
 You can do [citations](http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html). Plots, graphs, and citations, what else do you need for a research paper?
 
-Complicated, time consuming for very long articles.
+Knitr is smart! It doesn't re-run code that hasn't changed, meaning it can be fast. You don't need to worry about re-running your whole paper every time you change a single line of code.
 
-Maybe try Sweave (direct combo of LaTeX and R).
+Knitr's predecessor is called Sweave, which is a direct combo of LaTeX and R. So you might want to try that out if you're already a LaTeX pro, but I'm pretty sure Knitr is better.
 
 Send your output to .tex files, include those in your master paper file.
