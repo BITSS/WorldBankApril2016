@@ -1,6 +1,6 @@
 
      set linesize 90
-	 cd "C:\Users\garret\Box Sync\CEGA-Programs-BITSS\1_Events\3_Workshops-Seminars\World Bank\WorldBankApril2016\3-MarkdocDemo" 
+	 cd "C:\Users\garret\Box Sync\CEGA-Programs-BITSS\1_Events\3_Workshops-Seminars\World Bank\WorldBankApril2016\4-StataMarkdoc" 
 	 //change this for your computer!
 	 capture quietly log close
      qui log using example, replace
