@@ -1,5 +1,25 @@
 # World Bank Reproducibility Training
-Materials for the April 2016 Reproducibility Training at the World Bank
+by [Garret Christensen](http://www.ocf.berkeley.edu/~garret)
+
+UC Berkeley ([Berkeley Initative for Transparency in the Social Sciences](http://www.bitss.org), [Berkeley Institute for Data Science](http://bids.berkeley.edu))
+### Materials for the April 2016 Reproducibility Training at the World Bank
+
+The numbered files/directories will take you through the workshop in order.
+
+First, 1-Intro features a set of slides (Beamer/LaTeX slides rendered as PDF) that discuss the reproducibility crisis in the social sciences.
+
+Second, 2-GitDemo.md is an introduction to version control with Git.
+
+Third through Fifth are a series of examples of dynamic documents--one (or two) click workflows to better organize your workflow and make it reproducible.
+
+3-StataLaTeX shows a two-step method of combining Stata and LaTeX.
+
+4-StataMarkdoc shows a one-step method in Stata using the markdoc add-on. It's still under development.
+
+5-Rmarkdown shows a complete one-stop-shop of version-controlled one-click analysis and final paper in R Studio.
+
+-----------
+
 
 ## Installation Instructions
 The workshop will introduce you to two major sets of tools that can help you make your workflow more reproducible: version control and dynamic documents. It will very helpful if you could install the following software programs before coming to the workshop
@@ -34,3 +54,6 @@ You may also get some links about installing Pandoc and wkhtmltopdf. Please inst
 ### 3. A good text editor
 
 Writing good code is facilitated by a good text editor. You can get away without one because you almost certainly already have a program on your computer that can save simple ASCII text files (Notepad for Windows, or TextEdit for Mac--but change the default from Rich Text to Plain Text) but modern text editors do syntax highlighting, auto-complete, and a bunch of other cool stuff for you. I suggest [Atom](http://atom.io).
+
+Workshop Plan
+-------------
