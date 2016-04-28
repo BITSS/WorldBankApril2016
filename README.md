@@ -21,8 +21,8 @@ Third through Fifth are a series of examples of dynamic documents--one (or two) 
 -----------
 
 
-## Installation Instructions
-The workshop will introduce you to two major sets of tools that can help you make your workflow more reproducible: version control and dynamic documents. It will very helpful if you could install the following software programs before coming to the workshop
+## Installation Instructions (See bottom for VM & internal Bank machine instructions)
+The workshop will introduce you to two major sets of tools that can help you make your workflow more reproducible: version control and dynamic documents. It will very helpful if you could install the following software programs before coming to the workshop. **Our strict preference is for the participants to install the software on personal or WBG machines** for the hands-on exercises. However, in case you have some issues with installation, we prepared VM for some of the on-site registered participants.
 
 ### 1. Version Control with Git and the Github Desktop app
 
@@ -43,12 +43,15 @@ Dynamic documents allow you to write just one file that contains both your analy
 ##### Dynamic Documents in Stata
 
 Although far less well developed in Stata than in R, dynamic documents can be created using the Markdoc ado created by E.F. Haghish. To install, run the following commands in Stata:
->ssc install markdoc
 
->ssc install weaver
+```
+ssc install markdoc
 
->ssc install statax
+ssc install weaver
 
+ssc install statax
+
+```
 You may also get some links about installing Pandoc and wkhtmltopdf. Please install those as well.
 
 ### 3. A good text editor
@@ -57,3 +60,12 @@ Writing good code is facilitated by a good text editor. You can get away without
 
 Workshop Plan
 -------------
+=======
+## Virtual Machine & internal Bank machine environment setup
+### VM
+**_Our strict preference is for the participants to install the software on personal or WBG machines_** for the hands-on exercises. However, in case you have some issues with installation, on-site registered participants are granted an access to VM via their WBG laptop. We will provide the name of the terminal server on the day of the workshop. Please note that the VM will not be able to support all the participants.
+### Git and GitHub Desktop
+We have seen some errors using Git/GitHub Desktop from the Bank machines. If you run into SSL certificate error, run the following command:
+```
+git config --global http.sslVerify false
+```
